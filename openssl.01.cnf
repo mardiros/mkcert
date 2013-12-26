@@ -33,10 +33,13 @@ commonName_max = 64
 # Default values for the above, for consistency and less typing. 
 # Variable name   Value 
 #------------------------------   ------------------------------ 
-0.organizationName_default = The Cert Company 
-localityName_default = Metropolis 
-stateOrProvinceName_default = New York 
-countryName_default = US 
+0.organizationName_default = My Corp
+organizationalUnitName_default = Authority
+emailAddress_default = authorithy@mycorp.net
+localityName_default = Paris
+stateOrProvinceName_default = IDF
+countryName_default = FR
+commonName_default = authority
 
 [ v3_ca ] 
 basicConstraints = CA:TRUE 

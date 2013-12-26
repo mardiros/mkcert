@@ -34,10 +34,10 @@ commonName_max = 64
 # Default values for the above, for consistency and less typing. 
 # Variable name   Value 
 #------------------------------   ------------------------------ 
-0.organizationName_default = The Sample Company 
-localityName_default = Metropolis 
-stateOrProvinceName_default = New York 
-countryName_default = US 
+0.organizationName_default = My Corp
+localityName_default = Paris
+stateOrProvinceName_default = IDF
+countryName_default = FR
 
 [ v3_ca ] 
 basicConstraints = CA:TRUE 
